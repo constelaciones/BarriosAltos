@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******pestañas******/
+.clear{
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block; 
+}
+
+/******* CONTAINER-PESTANHAS *******/
+#container-pestanhas{
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+}
+#container-pestanhas ul{
+	list-style-position: outside;
+	list-style-image: none;
+	list-style-type: none;
+	margin-bottom: 10pt; /**/
+        margin-right: 20pt;
+	padding: 0pt; /**/
+}
+
+#container-pestanhas ul.menu li{
+    float: left;
+}
+#container-pestanhas ul.menu li{
+    margin-right: 30px;
+    margin-bottom: 8px;
+}
+#container-pestanhas ul.menu li{
+    /*font-weight:700;*/
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    background: transparent;
+    margin-bottom: -1px;
+    border: 1px solid #3e3e3e;
+    border-width: 1px 1px 1px 1px;
+    position: relative;
+    color: #000;
+    cursor: pointer;
+    border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 0 0 0 0;	
+}
+#container-pestanhas ul.menu li:hover{
+    color: #F00;
+}
+#container-pestanhas ul.menu li.active{
+    background: #F00;
+    color: #000;
+}
+/******* /CONTAINER-PESTANHAS *******/
+
+
+/******* PESTANHAS *******/
+#pestanhas{
+	margin:0;
+}
+
+/******* /PESTANHAS *******/
+
+
+/******* CONTENT *******/
+.content{
+    margin: 0;
+    background: transparent;
+    border-top: 1px solid #3e3e3e;
+    text-align: left;
+    color: #000;
+}
+.content h2{
+    height: auto;
+    padding: 0 0 0 0;
+    color: #FF0;
+}
+/******* /CONTENT *******/
+
+
+/******* PESTANHA1 *******/
+.content.pestanha1{
+    background:transparent;
+}
+.content.pestanha1{
+    display:block;
+}
+/******* /PESTANHA1 *******/
+
+
+/******* PESTANHA2 *******/
+.content.pestanha2{
+    background:transparent;
+}
+.content.pestanha2{
+    display:none;
+}
+/******* /PESTANHA2 *******/
+
+
+/******* PESTANHA3 *******/
+.content.pestanha3{
+    background:transparent;
+}
+.content.pestanha3{
+    display:none;
+}
+/******* /PESTANHA3 *******/
+
+
+/******* PESTANHA4 *******/
+.content.pestanha4{
+    background:transparent;
+}
+.content.pestanha4{
+    display:none;
+}
+/******* /PESTANHA4 *******/
